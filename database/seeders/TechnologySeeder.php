@@ -16,14 +16,14 @@ class TechnologySeeder extends Seeder
     {
         
         $technologies = [
-                ['label' => 'HTML', 'color' => '#ff0000'],
-                ['label' => 'CSS', 'color' => '#0000ff'],
+                ['label' => 'HTML', 'color' => '#E96228'],
+                ['label' => 'CSS', 'color' => '#2862E8'],
                 ['label' => 'JAVASCRIPT', 'color' => '#EFD81D'],
-                ['label' => 'VUE', 'color' => '#00ff00'],
-                ['label' => 'BOOTSTRAP', 'color' => '#7300FF'],
-                ['label' => 'SASS', 'color' => '#EE63B4'],
-                ['label' => 'PHP', 'color' => '#007BFF'],
-                ['label' => 'LARAVEL', 'color' => '#7E0707'],
+                ['label' => 'VUE', 'color' => '#33475B'],
+                ['label' => 'BOOTSTRAP', 'color' => '#8210F5'],
+                ['label' => 'SASS', 'color' => '#C76493'],
+                ['label' => 'PHP', 'color' => '#7377AD'],
+                ['label' => 'LARAVEL', 'color' => '#F72C1F'],
             ];
 
         foreach ($technologies as $tech) {
